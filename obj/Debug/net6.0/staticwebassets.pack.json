@@ -9325,6 +9325,10 @@
       "PackagePath": "staticwebassets\\js\\booksmanage.js"
     },
     {
+      "Id": "D:\\asp core mvc\\BTL_WEBNC\\wwwroot\\js\\categoriesmanage.js",
+      "PackagePath": "staticwebassets\\js\\categoriesmanage.js"
+    },
+    {
       "Id": "D:\\asp core mvc\\BTL_WEBNC\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
               "ToolTip": "D:\\asp core mvc\\BTL_WEBNC\\Controllers\\AdminController.cs",
               "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAAAKYAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T05:33:30.22Z",
               "EditorCaption": ""
@@ -43,8 +43,7 @@
               "RelativeToolTip": "Views\\Admin\\AccountsManage.cshtml",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAACQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-13T05:31:46.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T05:31:46.045Z"
             }
           ]
         }

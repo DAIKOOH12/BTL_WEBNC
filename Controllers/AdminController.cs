@@ -187,11 +187,26 @@ namespace QLTV.Controllers
             context.SaveChanges();
             return Json(new{success=true,data=taikhoan});
         }
-        [Route("cart_manage")]
-        public IActionResult Cart()
+        [Route("category_manage")]
+        public IActionResult Category()
         {
-            ViewData["Title"] = "Quản lý thẻ mượn";
-            return View();
+            ViewData["Title"] = "Quản lý danh mục";
+            var listCategory=context.TblDanhMucs.ToList();
+            TempData["listCategory"]=listCategory;
+            return View("CategoriesManage");
+        }
+        [HttpPost]
+        public IActionResult AddCategory(DtoCategories dtoCategories){
+            if(!ModelState.IsValid){
+                return View("CategoriesManage",dtoCategories);
+            }
+            TblDanhMuc newDM=new TblDanhMuc(){
+                SMaDanhMuc=dtoCategories.SMaDanhMuc,
+                STenDanhMuc=dtoCategories.STenDanhMuc
+            };
+            context.TblDanhMucs.Add(newDM);
+            context.SaveChanges();
+            return RedirectToAction("Category","Admin");
         }
     }
 }

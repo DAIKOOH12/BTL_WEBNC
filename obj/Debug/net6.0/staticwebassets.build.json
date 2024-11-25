@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TEgyd1LS8hSrNnW2m34J5u4DgYidHSlvlRURxpTvrrs=",
+  "Hash": "yzd/tJAkycaTMKqA0SosyJCF8VFvDLW5sre12meNz2w=",
   "Source": "QLTV",
   "BasePath": "_content/QLTV",
   "Mode": "Default",
@@ -44323,6 +44323,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\booksmanage.js"
+    },
+    {
+      "Identity": "D:\\asp core mvc\\BTL_WEBNC\\wwwroot\\js\\categoriesmanage.js",
+      "SourceId": "QLTV",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\asp core mvc\\BTL_WEBNC\\wwwroot\\",
+      "BasePath": "_content/QLTV",
+      "RelativePath": "js/categoriesmanage.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\categoriesmanage.js"
     },
     {
       "Identity": "D:\\asp core mvc\\BTL_WEBNC\\wwwroot\\js\\site.js",
